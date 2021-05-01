@@ -28,6 +28,7 @@ This will generate  target folder and bookstore-1.0.0.jar file inside the folde
 - Application will start running on port 8080.
 
 - Swagger auto generated API documentation URL : http://baseurl:port/swagger-ui.html#/ eg: http://localhost:8080/swagger-ui.html
+- Open API documentaion available at : http://localhost:8080/v2/api-docs
 
 ### Creating docker image and run
 
