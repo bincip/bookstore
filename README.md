@@ -1,15 +1,15 @@
 # bookstore
 Online book store with Manage books and Calculate payout amount feature
 
-## Teck stack
+## Technology stack
 
 - java 11
 - mvn 3.2.x
 - spring-boot 2.4.5
 - Server : Embedded Tomcat
-- Database : In memmory H2
+- Database : In memory H2
 
-## install && excute
+## install && execute
 
 ## Running the application locally
 
@@ -22,7 +22,7 @@ $ mvn clean
 $ mvn install
 ```
 
-This will generate  target folder and bookstore-1.0.0.jar file inside the folder.
+This will generate the target folder and bookstore-1.0.0.jar file inside the folder.
 
 - Run the jar file with the command "java -jar bookstore-1.0.0.jar".
 - Application will start running on port 8080.
@@ -45,3 +45,5 @@ $ docker images
 $ docker run -it -p8080:8080 <image-id>
 ```
 - Application will start running on port the tomcat configured port.
+
+
